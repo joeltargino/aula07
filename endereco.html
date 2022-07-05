@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereço</title>
+</head>
+
+<body class="container" style="background-color: #aaaaaa">
+    <section class="row">
+        <div class="col">
+            <img src="mapa.svg" alt="" width="100%">
+        </div>
+        <div class="col" style="margin-top: 70px;">
+            <article class="card card-body text-start" style="background-color: beige">
+                <h3>Informe seu Endereço</h3>
+                <hr>
+                <form action="">
+                    <label for="cep">CEP</label>
+                    <input maxlength="8" type="text" name="" id="cep" class="form-control mb-3" placeholder="Ex: 99999999">
+
+                    <label for="log">Logradouro</label>
+                    <input type="text" name="" id="log" class="form-control mb-3" placeholder="Rua">
+
+                    <label for="numero">Numero</label>
+                    <input type="text" name="" id="numero" class="form-control mb-3" placeholder="999">
+
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="" id="bairro" class="form-control mb-3" placeholder="Bairro">
+
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="" id="cidade" class="form-control mb-3" placeholder="Cidade">
+
+                    <label for="uf">UF</label>
+                    <input maxlength="2" style="max-width: 50px" type="text" name="" id="uf" class="form-control mb-3" placeholder="UF">
+
+                    <div class="d-grid">
+                        <button class="btn btn-success">Enviar</button>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </section>
+</body>
+
+</html>
